@@ -4,7 +4,6 @@ bg_image = "/images/thunder-client-image.jpg"
 categories = ["WebDevelopment"]
 date = 2021-04-27T18:30:00Z
 description = " To test our API we will use Thunder Client extension which can takes over postman, Attached the screenshots of all options to add for the Url."
-draft = true
 image = ""
 tags = ["postman", "ThunderClient "]
 title = "THUNDER CLIENT VSCODE EXTENSION OVER POSTMAN"
