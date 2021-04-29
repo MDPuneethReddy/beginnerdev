@@ -1,5 +1,5 @@
 baseURL = "http://examplesite.org"
-disableLanguages = ["french"]
+disableLanguages = ["deutsch", "italiano", "Francais"]
 disqusShortname = ""
 googleAnalytics = ""
 paginate = "4"
@@ -79,25 +79,9 @@ languageCode = "en-US"
 languageName = "English"
 weight = 1
 [[languages.en.menu.footer]]
-URL = "about"
-name = "About"
-weight = 1
-[[languages.en.menu.footer]]
 URL = "project"
 name = "Project"
 weight = 2
-[[languages.en.menu.footer]]
-URL = "service"
-name = "Service"
-weight = 3
-[[languages.en.menu.footer]]
-URL = "pricing"
-name = "Pricing"
-weight = 4
-[[languages.en.menu.footer]]
-URL = "faq"
-name = "FAQ"
-weight = 5
 [[languages.en.menu.footer]]
 URL = "contact"
 name = "Contact"
@@ -107,10 +91,6 @@ URL = "/"
 name = "Home"
 weight = 1
 [[languages.en.menu.main]]
-URL = "about"
-name = "About"
-weight = 2
-[[languages.en.menu.main]]
 URL = "project"
 name = "Project"
 weight = 3
@@ -118,22 +98,6 @@ weight = 3
 URL = "blog"
 name = "Blog"
 weight = 4
-[[languages.en.menu.main]]
-hasChildren = true
-name = "More"
-weight = 5
-[[languages.en.menu.main]]
-URL = "faq"
-name = "FAQ"
-parent = "More"
-[[languages.en.menu.main]]
-URL = "pricing"
-name = "Pricing"
-parent = "More"
-[[languages.en.menu.main]]
-URL = "service"
-name = "Service"
-parent = "More"
 [[languages.en.menu.main]]
 URL = "contact"
 name = "Contact"
