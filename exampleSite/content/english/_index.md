@@ -40,9 +40,9 @@ portfolio:
     label: View Works
     link: project
 service:
-  enable: true
+  enable: false
 cta:
-  enable: true
+  enable: false
   bg_image: images/call-to-action-bg.jpg
   title: We design delightful digital experiences.
   content: Read more about what we do and our philosophy of design. Judge for yourself
