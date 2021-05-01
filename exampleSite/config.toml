@@ -306,19 +306,10 @@ preloader = ""
 [params.widgets]
 sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 [[params.social]]
-icon = "ion-social-googleplus-outline"
-link = "#"
-[[params.social]]
 icon = "ion-social-linkedin-outline"
-link = "#"
+link = "#https://www.linkedin.com/in/puneeth-reddy-895277152/"
 [[params.social]]
 icon = "ion-social-pinterest-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-dribbble-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-twitter-outline"
 link = "#"
 [[params.social]]
 icon = "ion-social-facebook-outline"
