@@ -1,12 +1,12 @@
 +++
-author = ""
-bg_image = ""
-categories = []
-date = ""
-description = ""
+author = "M D PUNEETH REDDY"
+bg_image = "/images/node_cover-1.jpg"
+categories = ["nodejs"]
+date = 2021-04-03T18:30:00Z
+description = "Swagger documentation for Nodejs RestAPIs, along with setups and example for both json and yaml formats with detail explanation."
 draft = true
-image = ""
-tags = []
+image = "/images/node_cover-1.jpg"
+tags = ["expressjs", "nodejs", "swagger", "typescript"]
 title = "WAGGER DOCUMENTATION TO TEST NODEJS RESTAPIS"
 type = "post"
 
@@ -61,11 +61,11 @@ We need to configure the documentation how it should look, we will go set by ste
 
 ![swagger config setup](https://mdpuneethreddy.com/wp-content/uploads/2021/04/image-2.png =751x572)
 
-1. here the first open API is the swagger documentation version , you can check the official documentation for that
+1. here the first open API is the swagger documentation version, you can check the official documentation for that
 2. Next is the info about the API that needs to have about the API, here the swagger is more about the documentation of the API, so we need to make sure that none missing in the documentation to look into code,
 3. In the components section we add the security schemas here we can add security to the documentation, in company's it is a must, there are different types of securities given to the swagger you can choose based on the use case
 
-Next, we can also add the servers that need to set up and respond, we can add as many responses as we need, below you can see the URL , you can add as many URLs as you need
+Next, we can also add the servers that need to set up and respond, we can add as many responses as we need, below you can see the URL, you can add as many URLs as you need
 
 ![servers add to swagger setup](https://mdpuneethreddy.com/wp-content/uploads/2021/04/image-3.png =594x401)
 
@@ -113,6 +113,6 @@ I just commented out the JSON file to show the difference, here the difference i
 
 Here we have discussed how to install and set up the dependencies for the swagger documentation along with both formats with JSON and YAML for both typescript and javascript.
 
-If you have any comments please write in the comments or reach out to me through contact or any suggestions to improve and anything wrong please write in comments.If you like this content, please share it with others
+If you have any comments please write in the comments or reach out to me through contact or any suggestions to improve and anything wrong please write in comments. If you like this content, please share it with others
 
 If you want to know how to setup Nodejs RestAPI with expressjs you can see [here](https://mdpuneethreddy.com/expressjs-how-to-start-with-nodejs-and-expressjs/)
