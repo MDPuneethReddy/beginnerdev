@@ -107,73 +107,16 @@ contentDir = "content/french"
 copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tous droits réservés."
 languageCode = "fr-FR"
 languageName = "Français"
-weight = 2
-[[languages.fr.menu.footer]]
-URL = "about"
-name = "À propos"
-weight = 1
-[[languages.fr.menu.footer]]
-URL = "project"
-name = "Projet"
-weight = 2
-[[languages.fr.menu.footer]]
-URL = "service"
-name = "Service"
-weight = 3
-[[languages.fr.menu.footer]]
-URL = "pricing"
-name = "Tarification"
-weight = 4
-[[languages.fr.menu.footer]]
-URL = "faq"
-name = "Questions fréquentes"
-weight = 5
-[[languages.fr.menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 6
-[[languages.fr.menu.main]]
-URL = "/"
-name = "Accueil"
-weight = 1
-[[languages.fr.menu.main]]
-URL = "about"
-name = "À propos"
-weight = 2
-[[languages.fr.menu.main]]
-URL = "project"
-name = "Projet"
-weight = 3
-[[languages.fr.menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 4
-[[languages.fr.menu.main]]
-hasChildren = true
-name = "Plus"
-weight = 5
-[[languages.fr.menu.main]]
-URL = "faq"
-name = "Questions fréquentes"
-parent = "Plus"
-[[languages.fr.menu.main]]
-URL = "pricing"
-name = "Tarification"
-parent = "Plus"
-[[languages.fr.menu.main]]
-URL = "service"
-name = "Service"
-parent = "Plus"
-[[languages.fr.menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 6
+weight = "0"
+[languages.fr.menu]
+footer = []
+main = []
 [languages.it]
 contentDir = "content/italian"
 copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tutti i diritti riservati."
 languageCode = "it-IT"
 languageName = "Italiano"
-weight = 2
+weight = "0"
 [[languages.it.menu.footer]]
 URL = "about"
 name = "Chi siamo"
