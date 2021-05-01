@@ -4,7 +4,6 @@ bg_image = "/images/node_cover.jpg"
 categories = ["Nodejs"]
 date = 2021-03-31T18:30:00Z
 description = "Expressjs and nodejs backend API beginner start to create small API and run locally to test the frontend applications."
-draft = true
 image = "/images/node_cover.jpg"
 tags = ["typescript", "expressjs", "Nodejs"]
 title = "HOW TO START WITH NODEJS AND EXPRESSJS TO BUILD RESTFUL APIS"
