@@ -1,5 +1,5 @@
 baseURL = "http://examplesite.org"
-disableLanguages = ["Français"]
+disableLanguages = []
 disqusShortname = ""
 googleAnalytics = ""
 paginate = "4"
@@ -11,7 +11,7 @@ contentDir = "content/german"
 copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Alle Rechte vorbehalten."
 languageCode = "de-DE"
 languageName = "Deutsch"
-weight = 3
+weight = "0"
 [[languages.de.menu.footer]]
 URL = "about"
 name = "Über"
