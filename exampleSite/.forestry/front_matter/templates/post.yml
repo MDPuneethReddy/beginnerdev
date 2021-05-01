@@ -34,3 +34,4 @@ fields:
   default: post
 pages:
 - exampleSite/content/english/blog/how-to-start-with-nodejs-and-expressjs-to-build-restful-apis.md
+- exampleSite/content/english/blog/wagger-documentation-to-test-nodejs-restapis.md
