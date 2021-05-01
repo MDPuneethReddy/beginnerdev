@@ -9,21 +9,11 @@ sections:
 - type: document
   path: exampleSite/content/english/_index.md
   label: Homepage (en)
-- type: document
-  path: exampleSite/content/french/_index.md
-  label: Homepage (fr)
 - type: heading
   label: Blog Post
 - type: directory
   path: exampleSite/content/english/blog
   label: Post (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - post
-- type: directory
-  path: exampleSite/content/french/blog
-  label: Post (fr)
   create: documents
   match: "**/*"
   templates:
@@ -37,25 +27,11 @@ sections:
   match: "**/*"
   templates:
   - author
-- type: directory
-  path: exampleSite/content/french/author
-  label: Author (fr)
-  create: documents
-  match: "**/*"
-  templates:
-  - author
 - type: heading
   label: Project
 - type: directory
   path: exampleSite/content/english/project
   label: Project (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - project
-- type: directory
-  path: exampleSite/content/french/project
-  label: Project (fr)
   create: documents
   match: "**/*"
   templates:
@@ -69,21 +45,8 @@ sections:
   match: "*"
   exclude: _index.md
 - type: directory
-  path: exampleSite/content/french
-  label: Other Pages (fr)
-  create: documents
-  match: "*"
-  exclude: _index.md
-- type: directory
   path: exampleSite/content/english
   label: All Pages (en)
-  create: all
-  match: "**/*"
-  templates:
-  - new-page
-- type: directory
-  path: exampleSite/content/french
-  label: All Pages (fr)
   create: all
   match: "**/*"
   templates:
