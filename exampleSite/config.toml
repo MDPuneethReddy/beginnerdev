@@ -249,7 +249,7 @@ image = "images/logo.png"
 logo = "images/logo.png"
 logo_width = "150px"
 [params.contact]
-address_descriptors = false
+address_descriptors = true
 email = "mdpuneethreddy.com"
 location = "20-274,ragimanu street, mittoor, chittoor Andhrapradesh India"
 phone = "7032164298"
