@@ -50,15 +50,15 @@ For starting the server you need to install expressjs, expressjs is a framework 
 
 Yarn add expressjs
 
-After installing expressjs , open your favourite code editor and open the folder, When you open the folder you can see it like this.
+After installing expressjs, open your favorite code editor and open the folder, When you open the folder you can see it like this.
 
 ![nodejs folder structure](https://mdpuneethreddy.com/wp-content/uploads/2021/04/image-15.png =239x256)
 
-Now we can write your code to create the server, Now I don’t have any file to write the code, we need to create a file ,The easy method is to go to package.json and check the main
+Now we can write your code to create the server, Now I don’t have any file to write the code, we need to create a file, The easy method is to go to package.json and check the main
 
 ![check initial file](https://mdpuneethreddy.com/wp-content/uploads/2021/04/image-16.png =298x241)
 
-Here I have the file name as index.js , the initial point to the server to run the code is index.js, There are two options.
+Here I have the file name as index.js, the initial point to the server to run the code is index.js, There are two options.
 
 1. Here you can give your own file name and create a file in the repository
 
@@ -92,7 +92,7 @@ After running the above command you can see the below image running at port 3000
 
 ![console look for running api](https://mdpuneethreddy.com/wp-content/uploads/2021/04/image-20.png =296x34)
 
-That’s it your server is running at port 3000 , go to the browser and enter [http://localhost:3000/](http://localhost:3000/) , you can see like this,
+That’s it your server is running at port 3000, go to the browser and enter [http://localhost:3000/](http://localhost:3000/), you can see like this,
 
 ![check get request in browser](https://mdpuneethreddy.com/wp-content/uploads/2021/04/image-21.png =356x99)
 
@@ -100,7 +100,7 @@ Here you can see your localhost is running but there is nothing to show a respon
 
 ## **STEP-8**:
 
-Add app.get(“/”) method , here app.get() means whenever this app is called with get method with the path “/”, here “/” indicates the initial path,
+Add app. get(“/”) method, here app. get() means whenever this app is called with getting method with the path “/”, here “/” indicates the initial path,
 
 ![add get request for the api](https://mdpuneethreddy.com/wp-content/uploads/2021/04/image-22.png =516x248)
 
@@ -110,7 +110,7 @@ Next stop the server and restart again node index.js, you can see “welcome to 
 
 ![expressjs welcome to api](https://mdpuneethreddy.com/wp-content/uploads/2021/04/image-23.png =455x121)
 
-Now our backend server is running, you could have observed that you restarted the app again after saving changes , so it is annoying to restart every time you made changes, so will set up some package which will take care of it I,e ”Nodemon”
+Now our backend server is running, you could have observed that you restarted the app again after saving changes, so it is annoying to restart every time you made changes, so will set up some package which will take care of it I,e ”Nodemon”
 
 ## **STEP-10:**
 
@@ -126,7 +126,7 @@ While it installing go to package.json add the “start script”
 
 ## **STEP 12:**
 
-After installing nodemon ,run yarn start in the command line, you can see nodemon running automatically, you can write code if any changes nodemon checks and restart again, ignore that warning for now
+After installing nodemon, run yarn start in the command line, you can see nodemon running automatically, you can write code if any changes nodemon checks and restart again, ignore that warning for now
 
 Yarn start
 
@@ -136,7 +136,7 @@ That’s it for the blog, if you have any questions write them down below
 
 ## **CONCLUSION:**
 
-Here in this blog, we learnt how to Start our own backend server locally using expressjs, nodejs. If you have any doubts or questions please write to me, you can comment down below. Any suggestions to Improve from my side you can write in comments too.
+Here in this blog, we learned how to Start our own backend server locally using expressjs, nodejs. If you have any doubts or questions please write to me, you can comment down below. Any suggestions to Improve from my side you can write in comments too.
 
 please check for technology blogs [here.](https://mdpuneethreddy.com/category/technology/)
 
