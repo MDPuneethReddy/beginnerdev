@@ -250,9 +250,9 @@ logo = "images/logo.png"
 logo_width = "150px"
 [params.contact]
 address_descriptors = false
-email = "demo@email.com"
-location = "**Themefisher**  \nNorth Main Street  \nBrooklyn, New South Wales  \nAustralia\n"
-phone = "0124857985320"
+email = "mdpuneethreddy.com"
+location = "20-274,ragimanu street, mittoor, chittoor Andhrapradesh India"
+phone = "7032164298"
 [params.contact.form]
 action = "#"
 enable = true
