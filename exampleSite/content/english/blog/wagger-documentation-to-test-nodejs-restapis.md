@@ -4,7 +4,6 @@ bg_image = "/images/node_cover-1.jpg"
 categories = ["nodejs"]
 date = 2021-04-03T18:30:00Z
 description = "Swagger documentation for Nodejs RestAPIs, along with setups and example for both json and yaml formats with detail explanation."
-draft = true
 image = "/images/node_cover-1.jpg"
 tags = ["expressjs", "nodejs", "swagger", "typescript"]
 title = "WAGGER DOCUMENTATION TO TEST NODEJS RESTAPIS"
